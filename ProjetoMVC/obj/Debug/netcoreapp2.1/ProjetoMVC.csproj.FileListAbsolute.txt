@@ -7,7 +7,6 @@ D:\ESTUDOSC#\CURSO NÉLIO\Aulas\Capitulo18\ProjetoMVC\ProjetoMVC\bin\Debug\netco
 D:\ESTUDOSC#\CURSO NÉLIO\Aulas\Capitulo18\ProjetoMVC\ProjetoMVC\bin\Debug\netcoreapp2.1\ProjetoMVC.pdb
 D:\ESTUDOSC#\CURSO NÉLIO\Aulas\Capitulo18\ProjetoMVC\ProjetoMVC\bin\Debug\netcoreapp2.1\ProjetoMVC.Views.dll
 D:\ESTUDOSC#\CURSO NÉLIO\Aulas\Capitulo18\ProjetoMVC\ProjetoMVC\bin\Debug\netcoreapp2.1\ProjetoMVC.Views.pdb
-D:\ESTUDOSC#\CURSO NÉLIO\Aulas\Capitulo18\ProjetoMVC\ProjetoMVC\obj\Debug\netcoreapp2.1\ProjetoMVC.csprojAssemblyReference.cache
 D:\ESTUDOSC#\CURSO NÉLIO\Aulas\Capitulo18\ProjetoMVC\ProjetoMVC\obj\Debug\netcoreapp2.1\ProjetoMVC.AssemblyInfoInputs.cache
 D:\ESTUDOSC#\CURSO NÉLIO\Aulas\Capitulo18\ProjetoMVC\ProjetoMVC\obj\Debug\netcoreapp2.1\ProjetoMVC.AssemblyInfo.cs
 D:\ESTUDOSC#\CURSO NÉLIO\Aulas\Capitulo18\ProjetoMVC\ProjetoMVC\obj\Debug\netcoreapp2.1\ProjetoMVC.csproj.CoreCompileInputs.cache
@@ -33,3 +32,4 @@ D:\ESTUDOSC#\CURSO NÉLIO\Aulas\Capitulo18\ProjetoMVC\ProjetoMVC\obj\Debug\netco
 D:\ESTUDOSC#\CURSO NÉLIO\Aulas\Capitulo18\ProjetoMVC\ProjetoMVC\obj\Debug\netcoreapp2.1\ProjetoMVC.pdb
 D:\ESTUDOSC#\CURSO NÉLIO\Aulas\Capitulo18\ProjetoMVC\ProjetoMVC\obj\Debug\netcoreapp2.1\ProjetoMVC.genruntimeconfig.cache
 D:\ESTUDOSC#\CURSO NÉLIO\Aulas\Capitulo18\ProjetoMVC\ProjetoMVC\obj\Debug\netcoreapp2.1\ProjetoMVC.csproj.CopyComplete
+D:\ESTUDOSC#\CURSO NÉLIO\Aulas\Capitulo18\ProjetoMVC\ProjetoMVC\obj\Debug\netcoreapp2.1\Razor\Views\Departments\Index.cshtml.g.cs
