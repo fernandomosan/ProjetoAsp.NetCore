@@ -32,4 +32,4 @@ D:\ESTUDOSC#\CURSO NÉLIO\Aulas\Capitulo18\ProjetoMVC\ProjetoMVC\obj\Debug\netco
 D:\ESTUDOSC#\CURSO NÉLIO\Aulas\Capitulo18\ProjetoMVC\ProjetoMVC\obj\Debug\netcoreapp2.1\ProjetoMVC.pdb
 D:\ESTUDOSC#\CURSO NÉLIO\Aulas\Capitulo18\ProjetoMVC\ProjetoMVC\obj\Debug\netcoreapp2.1\ProjetoMVC.genruntimeconfig.cache
 D:\ESTUDOSC#\CURSO NÉLIO\Aulas\Capitulo18\ProjetoMVC\ProjetoMVC\obj\Debug\netcoreapp2.1\ProjetoMVC.csproj.CopyComplete
-D:\ESTUDOSC#\CURSO NÉLIO\Aulas\Capitulo18\ProjetoMVC\ProjetoMVC\obj\Debug\netcoreapp2.1\Razor\Views\Departments\Index.cshtml.g.cs
+D:\ESTUDOSC#\CURSO NÉLIO\Aulas\Capitulo18\ProjetoMVC\ProjetoMVC\obj\Debug\netcoreapp2.1\ProjetoMVC.csprojAssemblyReference.cache
