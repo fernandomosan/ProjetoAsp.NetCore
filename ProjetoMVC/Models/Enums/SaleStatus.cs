@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace ProjetoMVC.Models.Enums
 {
-    public enum SeleStatus : int
+    public enum SaleStatus : int
     {
         Pending = 0,
         Billed = 1,

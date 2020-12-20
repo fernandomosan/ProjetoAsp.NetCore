@@ -40,14 +40,16 @@ namespace ProjetoMVC
                     options.UseMySql(Configuration.GetConnectionString("ProjetoMVCContext"), builder =>
                         builder.MigrationsAssembly("ProjetoMVC")));
 
+            services.AddScoped<SeedingSevice>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, SeedingSevice seedingSevice)
         {
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                seedingSevice.Seed();
             }
             else
             {
