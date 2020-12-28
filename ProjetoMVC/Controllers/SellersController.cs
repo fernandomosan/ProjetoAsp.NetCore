@@ -2,6 +2,7 @@
 using ProjetoMVC.Models;
 using ProjetoMVC.Models.ViewModels;
 using ProjetoMVC.Service;
+using ProjetoMVC.Service.Exceptions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -78,6 +79,47 @@ namespace ProjetoMVC.Controllers
             }
 
             return View(obj);
+        }
+        
+        public IActionResult Edit(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var obj = _sellerService.FindById(id.Value);
+            if(obj == null)
+            {
+                return NotFound();
+            }
+
+            List<Department> departments = _departmentService.FindAll();
+            SellerFormVieModel vieModel = new SellerFormVieModel { Seller = obj, Departments = departments };
+            return View(vieModel);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Edit(int id, Seller seller)
+        {
+            if (id != seller.Id)
+            {
+                return BadRequest();
+            }
+            try
+            {
+                _sellerService.Update(seller);
+                return RedirectToAction(nameof(Index));
+            }
+            catch (NotFoundExeception)
+            {
+                return NotFound();
+            }
+            catch (DbConcurrencyException)
+            {
+                return BadRequest();
+            }
         }
     }
 }
